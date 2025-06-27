@@ -9,5 +9,11 @@ It works by utilising the advanced NLP properties of Gemini 2.0 Flash and https:
 3. Start the backend.py file using fastapi
 4. Parse the API response in json and connect with your app
 
+## How it works?
+1. The application receives the business news from the news api.
+2. Filter.py uses Gemini to filter out the news that are relevant to gold price.
+3. llm_based_prediction.py again utilises Gemini to analyse the news and it's sentiment towards the gold price whether it's positive, negative or neutral.
+4.  The backend.py file takes the output and then sends it via FastAPI get method.
+
 ## Contribution
 Pull requests are welcome
