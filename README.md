@@ -8,3 +8,6 @@ It works by utilising the advanced NLP properties of Gemini 2.0 Flash and https:
 2. Download all the required python libraries as listed in requirements.txt
 3. Start the backend.py file using fastapi
 4. Parse the API response in json and connect with your app
+
+## Contribution
+Pull requests are welcome
